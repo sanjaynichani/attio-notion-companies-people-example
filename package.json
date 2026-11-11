@@ -1,0 +1,15 @@
+{
+  "name": "attio-notion-companies-people-example",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Offline example of the companies-and-people field mapping from a Notion Worker Attio sync. It does not call Attio or Notion.",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "build": "tsc",
+    "test": "tsc && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.8.0"
+  }
+}
